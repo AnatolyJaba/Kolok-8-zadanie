@@ -1,0 +1,16 @@
+﻿@model Boolean
+@{
+	ViewData["Title"] = "Home Page";
+	var n = Model;
+}
+
+<div class="text-center">
+	@if (n)
+	{
+		<h1 class="display-4">Ладья бьёт фигуру </h1>
+	}
+	else
+	{
+		<h1 class="display-4">Ладья не может ударить </h1>
+	}
+</div>
